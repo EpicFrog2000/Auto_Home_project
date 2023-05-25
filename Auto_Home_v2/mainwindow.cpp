@@ -30,7 +30,7 @@ QWidget *MainWindow::createRoom1()
 {
     QWidget* tab1 = new QWidget();
     QVBoxLayout* tab1Layout = new QVBoxLayout(tab1);
-
+    // Add more locations if needed
     tab1Layout->addWidget(createNewOknoLocation("okno nad stołem"));
     tab1Layout->addWidget(createNewOknoLocation("okno koło szafy"));
     tab1Layout->addWidget(createNewOknoLocation("okno koło drzwi"));
@@ -45,7 +45,7 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
 {
     QWidget *line = new QWidget();
     QCheckBox *Chb1 = new QCheckBox(line);
-    QSlider *Pb1 = new QSlider(Qt::Horizontal, line); // Specify the slider orientation
+    QSlider *Pb1 = new QSlider(Qt::Horizontal, line); // Change to progress bar later maybe
     QLabel *nazwaMiejsca = new QLabel(nazwa);
     QPushButton *change = new QPushButton("change");
     QLabel *Pbprocenty = new QLabel("0%"); //depends on progress bar fillement
