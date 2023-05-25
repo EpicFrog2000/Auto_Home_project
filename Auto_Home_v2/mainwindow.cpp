@@ -1,26 +1,34 @@
 #include "mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QWidget(parent)
+MainWindow::MainWindow(QWidget *parent) : QWidget(parent)
 {
+    // Set window title
     setWindowTitle("Auto_Home");
 
+    // Create the main layout
     QVBoxLayout *vbox = new QVBoxLayout();
+
+    // Create a button for debugging purposes
     QPushButton *btn1 = new QPushButton("debug/pause/exit czy cos");
 
+    // Create a label for debugging purposes
     labeldebug = new QLabel("x");
 
+    // Add the tab widget and debug widgets to the main layout
     vbox->addWidget(createTabWidget());
-    vbox->addWidget(btn1);       //DELETE AFTER DEBUGGING
-    vbox->addWidget(labeldebug); //DELETE AFTER DEBUGGING
+    vbox->addWidget(btn1);       // DELETE AFTER DEBUGGING
+    vbox->addWidget(labeldebug); // DELETE AFTER DEBUGGING
 
+    // Set the main layout
     setLayout(vbox);
 }
 
 QTabWidget *MainWindow::createTabWidget()
 {
+    // Create the tab widget
     tabWidget = new QTabWidget();
 
+    // Add tabs to the tab widget
     tabWidget->addTab(createRoom1(), "Pokój 1");
     // Add more tabs if needed
     // tabWidget->addTab(createRoom2(), "Pokój 2");
@@ -31,9 +39,13 @@ QTabWidget *MainWindow::createTabWidget()
 
 QWidget *MainWindow::createNewOknoLocation(QString nazwa)
 {
+    // Create a new widget for the location
     QWidget *line = new QWidget();
+
+    // Create a checkbox for the location
     QCheckBox *Chb1 = new QCheckBox(line);
 
+    // Create labels, buttons, and sliders for the location
     QLabel *nazwaMiejsca = new QLabel(nazwa);
     QPushButton *get = new QPushButton("get");
     QPushButton *send = new QPushButton("send");
@@ -50,26 +62,28 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
     Chb1->setChecked(true);
     Chb1->setDisabled(true);
     Pb1->setOrientation(Qt::Horizontal);
-    QHBoxLayout* hbox = new QHBoxLayout();
+
+    // Create a horizontal layout for the location
+    QHBoxLayout *hbox = new QHBoxLayout();
     hbox->addWidget(Chb1);
     hbox->addWidget(nazwaMiejsca);
     hbox->addWidget(Pb1);
     hbox->addWidget(Pbprocenty);
     hbox->addWidget(get);
-    hbox->addWidget(send);  //TODO make this button contact with hatdware to  start moving motor to value from slider
+    hbox->addWidget(send);  // TODO: Connect this button to hardware to start moving motor to the value from the slider
 
+    // Set the layout for the location widget
     line->setLayout(hbox);
 
     int intValue = 42; // Replace with input from hardware
 
-    // When pressed change button it changes slider to value from hardware
-    //or maybe change to get this value real time idk
+    // When "get" button is pressed, update the slider value from hardware
     auto updatePb1Value = [=]() {
         Pb1->setValue(intValue);
     };
     connect(get, &QPushButton::clicked, updatePb1Value);
 
-    //when value changes it sends it to hardware
+    // When slider value changes, update labels and send the value to hardware
     connect(Pb1, &QSlider::valueChanged, this, [Pbprocenty, Chb1, Pb1, this](int value) {
         Pbprocenty->setText(QString::number(value) + "%");
         if (value == 100) {
@@ -85,13 +99,18 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
 
 QWidget *MainWindow::createRoom1()
 {
-    QWidget* tab1 = new QWidget();
-    QVBoxLayout* tab1Layout = new QVBoxLayout(tab1);
-    // Add more locations if needed
+    // Create a widget for room 1
+    QWidget *tab1 = new QWidget();
+
+    // Create a layout for room 1
+    QVBoxLayout *tab1Layout = new QVBoxLayout(tab1);
+
+    // Add locations to room 1
     tab1Layout->addWidget(createNewOknoLocation("okno nad stołem"));
     tab1Layout->addWidget(createNewOknoLocation("okno koło szafy"));
     tab1Layout->addWidget(createNewOknoLocation("okno koło drzwi"));
 
+    // Set the size policy and maximum height for room 1
     tab1->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
     tab1->setMaximumHeight(150);
 
@@ -100,12 +119,14 @@ QWidget *MainWindow::createRoom1()
 
 void MainWindow::set_value(QString str)
 {
+    // Set the debug label text
     labeldebug->setText(str);
     output = str;
 }
 
 MainWindow::~MainWindow()
 {
+    // Clean up dynamically allocated objects
     delete tabWidget;
     // Delete other dynamically allocated objects as needed
 }
