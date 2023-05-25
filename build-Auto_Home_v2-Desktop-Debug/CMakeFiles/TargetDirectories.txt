@@ -1,0 +1,8 @@
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/Auto_Home_v2.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/edit_cache.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/list_install_components.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/install.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/install/local.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/install/strip.dir
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/CMakeFiles/Auto_Home_v2_autogen.dir
