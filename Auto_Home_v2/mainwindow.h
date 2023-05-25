@@ -9,8 +9,8 @@
 #include <QProgressBar>
 #include <QLabel>
 #include <QSizePolicy>
-#include <QSpacerItem>
 #include <QSlider>
+#include <QString>
 class MainWindow : public QWidget
 {
     Q_OBJECT
@@ -23,7 +23,8 @@ public:
     QWidget *createRoom1();
     QWidget *createNewOknoLocation(QString nazwa);
 
-public slots:
-
+    QLabel *labeldebug;
+    void set_value(QString str);
+    QString output;
 };
 #endif // MAINWINDOW_H

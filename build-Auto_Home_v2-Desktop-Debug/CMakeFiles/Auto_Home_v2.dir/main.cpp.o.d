@@ -255,10 +255,9 @@ CMakeFiles/Auto_Home_v2.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QSizePolicy \
  /usr/include/qt/QtWidgets/qsizepolicy.h \
- /usr/include/qt/QtWidgets/QSpacerItem \
- /usr/include/qt/QtWidgets/qlayoutitem.h \
  /usr/include/qt/QtWidgets/QSlider /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \

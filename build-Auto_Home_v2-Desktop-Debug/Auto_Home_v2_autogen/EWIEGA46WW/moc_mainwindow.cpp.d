@@ -226,6 +226,7 @@
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QString \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -310,7 +311,6 @@
   /usr/include/qt/QtWidgets/QPushButton \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/QSlider \
-  /usr/include/qt/QtWidgets/QSpacerItem \
   /usr/include/qt/QtWidgets/QTabWidget \
   /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \

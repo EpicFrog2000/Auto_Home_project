@@ -351,11 +351,11 @@ CMakeFiles/Auto_Home_v2.dir/Auto_Home_v2_autogen/mocs_compilation.cpp.o: Auto_Ho
   /usr/include/qt/QtWidgets/qlabel.h \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/QSpacerItem \
-  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/QSlider \
   /usr/include/qt/QtWidgets/qslider.h \
-  /usr/include/qt/QtWidgets/qabstractslider.h
+  /usr/include/qt/QtWidgets/qabstractslider.h \
+  /usr/include/qt/QtCore/QString \
+  /usr/include/qt/QtCore/qstring.h
 
 CMakeFiles/Auto_Home_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/main.cpp \
   /usr/include/stdc-predef.h \
@@ -706,11 +706,11 @@ CMakeFiles/Auto_Home_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/repositor
   /usr/include/qt/QtWidgets/qlabel.h \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/QSpacerItem \
-  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/QSlider \
   /usr/include/qt/QtWidgets/qslider.h \
   /usr/include/qt/QtWidgets/qabstractslider.h \
+  /usr/include/qt/QtCore/QString \
+  /usr/include/qt/QtCore/qstring.h \
   /usr/include/qt/QtWidgets/QApplication \
   /usr/include/qt/QtWidgets/qapplication.h \
   /usr/include/qt/QtCore/qcoreapplication.h \
@@ -1072,11 +1072,11 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
   /usr/include/qt/QtWidgets/qlabel.h \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/QSpacerItem \
-  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/QSlider \
   /usr/include/qt/QtWidgets/qslider.h \
-  /usr/include/qt/QtWidgets/qabstractslider.h
+  /usr/include/qt/QtWidgets/qabstractslider.h \
+  /usr/include/qt/QtCore/QString \
+  /usr/include/qt/QtCore/qstring.h
 
 
 /usr/include/qt/QtCore/qmap.h:
@@ -1097,7 +1097,7 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/main.cpp:
 
-/usr/include/qt/QtWidgets/QSpacerItem:
+/usr/include/qt/QtCore/QString:
 
 /usr/include/qt/QtWidgets/QSizePolicy:
 
