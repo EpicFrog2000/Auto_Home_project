@@ -12,12 +12,12 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent)
     QPushButton *btn1 = new QPushButton("debug/pause/exit czy cos");
 
     // Create a label for debugging purposes
-    labeldebug = new QLabel("x");
+    labelDebug = new QLabel("x");
 
     // Add the tab widget and debug widgets to the main layout
     vbox->addWidget(createTabWidget());
     vbox->addWidget(btn1);       // DELETE AFTER DEBUGGING
-    vbox->addWidget(labeldebug); // DELETE AFTER DEBUGGING
+    vbox->addWidget(labelDebug); // DELETE AFTER DEBUGGING
 
     // Set the main layout
     setLayout(vbox);
@@ -91,7 +91,7 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
         } else {
             Chb1->setChecked(false);
         }
-        set_value(Pbprocenty->text()); // Call the set_value function
+        setValue(Pbprocenty->text()); // Call the set_value function
     });
 
     return line;
@@ -117,10 +117,10 @@ QWidget *MainWindow::createRoom1()
     return tab1;
 }
 
-void MainWindow::set_value(QString str)
+void MainWindow::setValue(QString str)
 {
     // Set the debug label text
-    labeldebug->setText(str);
+    labelDebug->setText(str);
     output = str;
 }
 
