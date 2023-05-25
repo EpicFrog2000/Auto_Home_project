@@ -11,8 +11,8 @@ MainWindow::MainWindow(QWidget *parent)
     labeldebug = new QLabel("x");
 
     vbox->addWidget(createTabWidget());
-    vbox->addWidget(btn1);
-    vbox->addWidget(labeldebug);
+    vbox->addWidget(btn1);       //DELETE AFTER DEBUGGING
+    vbox->addWidget(labeldebug); //DELETE AFTER DEBUGGING
 
     setLayout(vbox);
 }
@@ -63,6 +63,7 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
     int intValue = 42; // Replace with input from hardware
 
     // When pressed change button it changes slider to value from hardware
+    //or maybe change to get this value real time idk
     auto updatePb1Value = [=]() {
         Pb1->setValue(intValue);
     };
