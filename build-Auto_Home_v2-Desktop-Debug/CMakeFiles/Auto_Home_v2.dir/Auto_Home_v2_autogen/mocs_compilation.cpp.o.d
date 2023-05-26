@@ -249,11 +249,9 @@ CMakeFiles/Auto_Home_v2.dir/Auto_Home_v2_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/QCheckBox \
- /usr/include/qt/QtWidgets/qcheckbox.h \
- /usr/include/qt/QtWidgets/QProgressBar \
- /usr/include/qt/QtWidgets/qprogressbar.h \
- /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/QLabel \
- /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QSizePolicy \
+ /usr/include/qt/QtWidgets/qcheckbox.h /usr/include/qt/QtWidgets/QLabel \
+ /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtWidgets/QSizePolicy \
  /usr/include/qt/QtWidgets/qsizepolicy.h \
  /usr/include/qt/QtWidgets/QSlider /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \

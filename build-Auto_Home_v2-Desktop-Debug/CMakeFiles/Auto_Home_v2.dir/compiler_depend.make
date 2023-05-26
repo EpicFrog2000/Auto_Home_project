@@ -344,11 +344,9 @@ CMakeFiles/Auto_Home_v2.dir/Auto_Home_v2_autogen/mocs_compilation.cpp.o: Auto_Ho
   /usr/include/qt/QtWidgets/qabstractbutton.h \
   /usr/include/qt/QtWidgets/QCheckBox \
   /usr/include/qt/QtWidgets/qcheckbox.h \
-  /usr/include/qt/QtWidgets/QProgressBar \
-  /usr/include/qt/QtWidgets/qprogressbar.h \
-  /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/QSlider \
@@ -699,11 +697,9 @@ CMakeFiles/Auto_Home_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/repositor
   /usr/include/qt/QtWidgets/qabstractbutton.h \
   /usr/include/qt/QtWidgets/QCheckBox \
   /usr/include/qt/QtWidgets/qcheckbox.h \
-  /usr/include/qt/QtWidgets/QProgressBar \
-  /usr/include/qt/QtWidgets/qprogressbar.h \
-  /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/QSlider \
@@ -1065,19 +1061,63 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
   /usr/include/qt/QtWidgets/qabstractbutton.h \
   /usr/include/qt/QtWidgets/QCheckBox \
   /usr/include/qt/QtWidgets/qcheckbox.h \
-  /usr/include/qt/QtWidgets/QProgressBar \
-  /usr/include/qt/QtWidgets/qprogressbar.h \
-  /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/QSlider \
   /usr/include/qt/QtWidgets/qslider.h \
   /usr/include/qt/QtWidgets/qabstractslider.h \
   /usr/include/qt/QtCore/QString \
-  /usr/include/qt/QtCore/qstring.h
+  /usr/include/qt/QtCore/qstring.h \
+  /usr/include/c++/12.2.1/fstream \
+  /usr/include/c++/12.2.1/istream \
+  /usr/include/c++/12.2.1/ios \
+  /usr/include/c++/12.2.1/bits/basic_ios.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.h \
+  /usr/include/c++/12.2.1/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/12.2.1/ostream \
+  /usr/include/c++/12.2.1/bits/ostream.tcc \
+  /usr/include/c++/12.2.1/bits/istream.tcc \
+  /usr/include/c++/12.2.1/bits/codecvt.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+  /usr/include/c++/12.2.1/bits/fstream.tcc \
+  /usr/include/c++/12.2.1/iostream
 
+
+/usr/include/c++/12.2.1/bits/fstream.tcc:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/12.2.1/bits/ostream.tcc:
+
+/usr/include/c++/12.2.1/ostream:
+
+/usr/include/c++/12.2.1/bits/locale_facets.tcc:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/c++/12.2.1/cwctype:
+
+/usr/include/c++/12.2.1/bits/locale_facets.h:
+
+/usr/include/c++/12.2.1/bits/basic_ios.tcc:
+
+/usr/include/c++/12.2.1/bits/basic_ios.h:
+
+/usr/include/c++/12.2.1/istream:
+
+/usr/include/c++/12.2.1/ios:
 
 /usr/include/qt/QtCore/qmap.h:
 
@@ -1097,13 +1137,11 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/main.cpp:
 
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
 /usr/include/qt/QtCore/QString:
 
 /usr/include/qt/QtWidgets/QSizePolicy:
-
-/usr/include/qt/QtWidgets/qprogressbar.h:
-
-/usr/include/qt/QtWidgets/QProgressBar:
 
 /usr/include/qt/QtWidgets/qpushbutton.h:
 
@@ -1249,6 +1287,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/bits/types/__mbstate_t.h:
 
+/usr/include/c++/12.2.1/fstream:
+
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/types/struct_sched_param.h:
@@ -1272,6 +1312,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 /usr/include/c++/12.2.1/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/12.2.1/bits/refwrap.h:
+
+/usr/include/c++/12.2.1/bits/codecvt.h:
 
 /usr/include/qt/QtCore/qbytearray.h:
 
@@ -1397,7 +1439,11 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/c++/12.2.1/bit:
 
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
+
 /usr/include/bits/uintn-identity.h:
+
+/usr/include/wctype.h:
 
 /usr/include/sched.h:
 
@@ -1471,6 +1517,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/c++/12.2.1/debug/debug.h:
 
+/usr/include/c++/12.2.1/iostream:
+
 /usr/include/c++/12.2.1/debug/assertions.h:
 
 /usr/include/qt/QtWidgets/qtwidgets-config.h:
@@ -1508,6 +1556,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 /usr/include/qt/QtCore/qnumeric.h:
 
 /usr/include/bits/time64.h:
+
+/usr/include/c++/12.2.1/bits/istream.tcc:
 
 /usr/include/c++/12.2.1/bits/stl_iterator.h:
 

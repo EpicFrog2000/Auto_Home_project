@@ -307,7 +307,6 @@
   /usr/include/qt/QtGui/qwindowdefs.h \
   /usr/include/qt/QtWidgets/QCheckBox \
   /usr/include/qt/QtWidgets/QLabel \
-  /usr/include/qt/QtWidgets/QProgressBar \
   /usr/include/qt/QtWidgets/QPushButton \
   /usr/include/qt/QtWidgets/QSizePolicy \
   /usr/include/qt/QtWidgets/QSlider \
@@ -323,7 +322,6 @@
   /usr/include/qt/QtWidgets/qlabel.h \
   /usr/include/qt/QtWidgets/qlayout.h \
   /usr/include/qt/QtWidgets/qlayoutitem.h \
-  /usr/include/qt/QtWidgets/qprogressbar.h \
   /usr/include/qt/QtWidgets/qpushbutton.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qslider.h \

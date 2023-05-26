@@ -1,5 +1,8 @@
 #include "mainwindow.h"
-
+#include <fstream>
+#include <string>
+#include <iostream>
+#include "serial.h"
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent)
 {
     // Set window title
@@ -75,13 +78,15 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
     // Set the layout for the location widget
     line->setLayout(hbox);
 
-    int intValue = 42; // Replace with input from hardware
+
+    int intValue = 30;
 
     // When "get" button is pressed, update the slider value from hardware
-    auto updatePb1Value = [=]() {
-        Pb1->setValue(intValue);
-    };
-    connect(get, &QPushButton::clicked, updatePb1Value);
+    connect(get, &QPushButton::clicked, [=]() mutable {
+    int intValue = readserial(); // Convert the received line to an integer
+    Pb1->setValue(intValue);
+    //std::cerr << readserial();
+    });
 
     // When slider value changes, update labels and send the value to hardware
     connect(Pb1, &QSlider::valueChanged, this, [Pbprocenty, Chb1, Pb1, this](int value) {

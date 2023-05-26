@@ -249,12 +249,26 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/QCheckBox \
- /usr/include/qt/QtWidgets/qcheckbox.h \
- /usr/include/qt/QtWidgets/QProgressBar \
- /usr/include/qt/QtWidgets/qprogressbar.h \
- /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/QLabel \
- /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QSizePolicy \
+ /usr/include/qt/QtWidgets/qcheckbox.h /usr/include/qt/QtWidgets/QLabel \
+ /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtWidgets/QSizePolicy \
  /usr/include/qt/QtWidgets/qsizepolicy.h \
  /usr/include/qt/QtWidgets/QSlider /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
- /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /usr/include/c++/12.2.1/fstream /usr/include/c++/12.2.1/istream \
+ /usr/include/c++/12.2.1/ios /usr/include/c++/12.2.1/bits/basic_ios.h \
+ /usr/include/c++/12.2.1/bits/locale_facets.h \
+ /usr/include/c++/12.2.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/12.2.1/bits/locale_facets.tcc \
+ /usr/include/c++/12.2.1/bits/basic_ios.tcc \
+ /usr/include/c++/12.2.1/ostream /usr/include/c++/12.2.1/bits/ostream.tcc \
+ /usr/include/c++/12.2.1/bits/istream.tcc \
+ /usr/include/c++/12.2.1/bits/codecvt.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/12.2.1/bits/fstream.tcc \
+ /usr/include/c++/12.2.1/iostream
