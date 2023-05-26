@@ -255,4 +255,10 @@ CMakeFiles/Auto_Home_v2.dir/Auto_Home_v2_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qsizepolicy.h \
  /usr/include/qt/QtWidgets/QSlider /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
- /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
+ /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QEventLoop \
+ /usr/include/qt/QtCore/qeventloop.h \
+ /usr/include/qt/QtSerialPort/QSerialPort \
+ /usr/include/qt/QtSerialPort/qserialport.h \
+ /usr/include/qt/QtSerialPort/qserialportglobal.h

@@ -10,6 +10,9 @@
 #include <QSizePolicy>
 #include <QSlider>
 #include <QString>
+#include <QTimer>
+#include <QEventLoop>
+#include <QtSerialPort/QSerialPort>
 
 class MainWindow : public QWidget
 {
@@ -27,6 +30,7 @@ public:
     QLabel* labelDebug;
     void setValue(QString str);
     QString output;
+    //int readSerialData();
 };
 
 #endif // MAINWINDOW_H

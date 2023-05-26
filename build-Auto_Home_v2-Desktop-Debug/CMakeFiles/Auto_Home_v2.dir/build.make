@@ -125,6 +125,7 @@ Auto_Home_v2: CMakeFiles/Auto_Home_v2.dir/main.cpp.o
 Auto_Home_v2: CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o
 Auto_Home_v2: CMakeFiles/Auto_Home_v2.dir/build.make
 Auto_Home_v2: /usr/lib/libQt5Widgets.so.5.15.8
+Auto_Home_v2: /usr/lib/libQt5SerialPort.so.5.15.9
 Auto_Home_v2: /usr/lib/libQt5Gui.so.5.15.8
 Auto_Home_v2: /usr/lib/libQt5Core.so.5.15.8
 Auto_Home_v2: CMakeFiles/Auto_Home_v2.dir/link.txt

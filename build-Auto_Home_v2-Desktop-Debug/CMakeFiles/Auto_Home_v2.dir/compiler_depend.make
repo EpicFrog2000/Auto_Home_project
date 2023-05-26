@@ -353,7 +353,15 @@ CMakeFiles/Auto_Home_v2.dir/Auto_Home_v2_autogen/mocs_compilation.cpp.o: Auto_Ho
   /usr/include/qt/QtWidgets/qslider.h \
   /usr/include/qt/QtWidgets/qabstractslider.h \
   /usr/include/qt/QtCore/QString \
-  /usr/include/qt/QtCore/qstring.h
+  /usr/include/qt/QtCore/qstring.h \
+  /usr/include/qt/QtCore/QTimer \
+  /usr/include/qt/QtCore/qtimer.h \
+  /usr/include/qt/QtCore/qbasictimer.h \
+  /usr/include/qt/QtCore/QEventLoop \
+  /usr/include/qt/QtCore/qeventloop.h \
+  /usr/include/qt/QtSerialPort/QSerialPort \
+  /usr/include/qt/QtSerialPort/qserialport.h \
+  /usr/include/qt/QtSerialPort/qserialportglobal.h
 
 CMakeFiles/Auto_Home_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/main.cpp \
   /usr/include/stdc-predef.h \
@@ -707,6 +715,14 @@ CMakeFiles/Auto_Home_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/repositor
   /usr/include/qt/QtWidgets/qabstractslider.h \
   /usr/include/qt/QtCore/QString \
   /usr/include/qt/QtCore/qstring.h \
+  /usr/include/qt/QtCore/QTimer \
+  /usr/include/qt/QtCore/qtimer.h \
+  /usr/include/qt/QtCore/qbasictimer.h \
+  /usr/include/qt/QtCore/QEventLoop \
+  /usr/include/qt/QtCore/qeventloop.h \
+  /usr/include/qt/QtSerialPort/QSerialPort \
+  /usr/include/qt/QtSerialPort/qserialport.h \
+  /usr/include/qt/QtSerialPort/qserialportglobal.h \
   /usr/include/qt/QtWidgets/QApplication \
   /usr/include/qt/QtWidgets/qapplication.h \
   /usr/include/qt/QtCore/qcoreapplication.h \
@@ -1071,6 +1087,14 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
   /usr/include/qt/QtWidgets/qabstractslider.h \
   /usr/include/qt/QtCore/QString \
   /usr/include/qt/QtCore/qstring.h \
+  /usr/include/qt/QtCore/QTimer \
+  /usr/include/qt/QtCore/qtimer.h \
+  /usr/include/qt/QtCore/qbasictimer.h \
+  /usr/include/qt/QtCore/QEventLoop \
+  /usr/include/qt/QtCore/qeventloop.h \
+  /usr/include/qt/QtSerialPort/QSerialPort \
+  /usr/include/qt/QtSerialPort/qserialport.h \
+  /usr/include/qt/QtSerialPort/qserialportglobal.h \
   /usr/include/c++/12.2.1/fstream \
   /usr/include/c++/12.2.1/istream \
   /usr/include/c++/12.2.1/ios \
@@ -1090,8 +1114,84 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
   /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
   /usr/include/c++/12.2.1/bits/fstream.tcc \
-  /usr/include/c++/12.2.1/iostream
+  /usr/include/c++/12.2.1/iostream \
+  /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/serial.h \
+  /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h \
+  /usr/include/bits/fcntl-linux.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/struct_stat.h \
+  /usr/include/termios.h \
+  /usr/include/bits/termios.h \
+  /usr/include/bits/termios-struct.h \
+  /usr/include/bits/termios-c_cc.h \
+  /usr/include/bits/termios-c_iflag.h \
+  /usr/include/bits/termios-c_oflag.h \
+  /usr/include/bits/termios-baud.h \
+  /usr/include/bits/termios-c_cflag.h \
+  /usr/include/bits/termios-c_lflag.h \
+  /usr/include/bits/termios-tcflow.h \
+  /usr/include/bits/termios-misc.h \
+  /usr/include/sys/ttydefaults.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/c++/12.2.1/cstring \
+  /usr/include/c++/12.2.1/sstream \
+  /usr/include/c++/12.2.1/bits/sstream.tcc \
+  /usr/include/poll.h \
+  /usr/include/sys/poll.h \
+  /usr/include/bits/poll.h
 
+
+/usr/include/sys/poll.h:
+
+/usr/include/poll.h:
+
+/usr/include/c++/12.2.1/cstring:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/ttydefaults.h:
+
+/usr/include/bits/termios-c_lflag.h:
+
+/usr/include/bits/termios-c_cflag.h:
+
+/usr/include/bits/termios-c_iflag.h:
+
+/usr/include/bits/termios-c_cc.h:
+
+/usr/include/bits/termios-struct.h:
+
+/usr/include/bits/termios.h:
+
+/usr/include/termios.h:
+
+/usr/include/bits/struct_stat.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/bits/types/struct_iovec.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/fcntl.h:
+
+/Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/serial.h:
 
 /usr/include/c++/12.2.1/bits/fstream.tcc:
 
@@ -1115,6 +1215,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/c++/12.2.1/bits/basic_ios.h:
 
+/usr/include/bits/termios-tcflow.h:
+
 /usr/include/c++/12.2.1/istream:
 
 /usr/include/c++/12.2.1/ios:
@@ -1127,8 +1229,6 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/qt/QtGui/qguiapplication.h:
 
-/usr/include/qt/QtCore/qeventloop.h:
-
 /usr/include/qt/QtCore/qcoreevent.h:
 
 /usr/include/qt/QtCore/qcoreapplication.h:
@@ -1136,6 +1236,12 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 /usr/include/qt/QtWidgets/qapplication.h:
 
 /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/main.cpp:
+
+/usr/include/qt/QtCore/qeventloop.h:
+
+/usr/include/qt/QtCore/qbasictimer.h:
+
+/usr/include/qt/QtCore/qtimer.h:
 
 /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
@@ -1199,6 +1305,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/qt/QtCore/qmetatype.h:
 
+/usr/include/bits/termios-c_oflag.h:
+
 /usr/include/qt/QtCore/qscopedpointer.h:
 
 /usr/include/qt/QtCore/qregexp.h:
@@ -1230,6 +1338,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 /usr/include/qt/QtCore/qvector.h:
 
 /usr/include/c++/12.2.1/compare:
+
+/usr/include/bits/posix_opt.h:
 
 /usr/include/c++/12.2.1/array:
 
@@ -1371,6 +1481,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/c++/12.2.1/tuple:
 
+/usr/include/qt/QtSerialPort/qserialportglobal.h:
+
 /usr/include/c++/12.2.1/bits/uniform_int_dist.h:
 
 /usr/include/bits/select.h:
@@ -1501,6 +1613,8 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: /Dysk_przenośny/Programowanie/rep
 
 /usr/include/qt/QtCore/qglobal.h:
 
+/usr/include/qt/QtCore/QEventLoop:
+
 /usr/include/c++/12.2.1/bits/char_traits.h:
 
 /usr/include/qt/QtWidgets/QPushButton:
@@ -1540,6 +1654,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 /usr/include/c++/12.2.1/bits/stl_uninitialized.h:
 
 /usr/include/c++/12.2.1/bits/concept_check.h:
+
+/usr/include/bits/poll.h:
 
 /usr/include/c++/12.2.1/ext/type_traits.h:
 
@@ -1599,11 +1715,15 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/12.2.1/ext/concurrence.h:
 
+/usr/include/bits/stat.h:
+
 /usr/include/c++/12.2.1/initializer_list:
 
 /usr/include/c++/12.2.1/bits/hashtable_policy.h:
 
 /usr/include/bits/types.h:
+
+/usr/include/bits/termios-baud.h:
 
 /usr/include/features.h:
 
@@ -1643,6 +1763,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 
 /usr/include/qt/QtWidgets/qwidget.h:
 
+/usr/include/qt/QtCore/QTimer:
+
 /usr/include/qt/QtGui/qtguiglobal.h:
 
 /usr/include/bits/types/locale_t.h:
@@ -1650,6 +1772,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 /usr/include/c++/12.2.1/bits/stl_relops.h:
 
 /usr/include/assert.h:
+
+/usr/include/qt/QtSerialPort/QSerialPort:
 
 /usr/include/qt/QtCore/qtcore-config.h:
 
@@ -1681,11 +1805,15 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 
 /usr/include/bits/types/sigset_t.h:
 
+/usr/include/bits/termios-misc.h:
+
 /usr/include/qt/QtCore/qlist.h:
 
 /usr/include/alloca.h:
 
 /usr/include/qt/QtCore/qtypeinfo.h:
+
+/usr/include/qt/QtSerialPort/qserialport.h:
 
 /usr/include/c++/12.2.1/cerrno:
 
@@ -1753,17 +1881,23 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/12.2.1/bits/localefwd.h:
 
+/usr/include/bits/confname.h:
+
 /usr/include/c++/12.2.1/clocale:
 
 /usr/include/locale.h:
 
 /usr/include/bits/locale.h:
 
+/usr/include/bits/fcntl-linux.h:
+
 /usr/include/c++/12.2.1/cctype:
 
 /usr/include/c++/12.2.1/cstddef:
 
 /usr/include/c++/12.2.1/bits/ostream_insert.h:
+
+/usr/include/bits/getopt_posix.h:
 
 /usr/include/c++/12.2.1/bits/stl_tree.h:
 
@@ -1776,6 +1910,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 /usr/include/qt/QtWidgets/qsizepolicy.h:
 
 /usr/include/c++/12.2.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/12.2.1/sstream:
 
 /usr/include/c++/12.2.1/bits/range_access.h:
 
@@ -1800,6 +1936,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 /usr/include/qt/QtCore/qalgorithms.h:
 
 /usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/bits/environments.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -1844,6 +1982,8 @@ Auto_Home_v2_autogen/mocs_compilation.cpp:
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12.2.1/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/12.2.1/bits/sstream.tcc:
 
 /usr/include/c++/12.2.1/functional:
 

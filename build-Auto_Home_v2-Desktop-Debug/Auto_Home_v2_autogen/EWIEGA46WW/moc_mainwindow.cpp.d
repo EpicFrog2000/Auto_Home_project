@@ -226,12 +226,15 @@
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QEventLoop \
   /usr/include/qt/QtCore/QString \
+  /usr/include/qt/QtCore/QTimer \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
   /usr/include/qt/QtCore/qatomic_cxx11.h \
   /usr/include/qt/QtCore/qbasicatomic.h \
+  /usr/include/qt/QtCore/qbasictimer.h \
   /usr/include/qt/QtCore/qbytearray.h \
   /usr/include/qt/QtCore/qbytearraylist.h \
   /usr/include/qt/QtCore/qchar.h \
@@ -240,6 +243,7 @@
   /usr/include/qt/QtCore/qcontainerfwd.h \
   /usr/include/qt/QtCore/qcontainertools_impl.h \
   /usr/include/qt/QtCore/qdatastream.h \
+  /usr/include/qt/QtCore/qeventloop.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \
   /usr/include/qt/QtCore/qglobal.h \
@@ -279,6 +283,7 @@
   /usr/include/qt/QtCore/qsysinfo.h \
   /usr/include/qt/QtCore/qsystemdetection.h \
   /usr/include/qt/QtCore/qtcore-config.h \
+  /usr/include/qt/QtCore/qtimer.h \
   /usr/include/qt/QtCore/qtypeinfo.h \
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
@@ -305,6 +310,9 @@
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtSerialPort/QSerialPort \
+  /usr/include/qt/QtSerialPort/qserialport.h \
+  /usr/include/qt/QtSerialPort/qserialportglobal.h \
   /usr/include/qt/QtWidgets/QCheckBox \
   /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/QPushButton \

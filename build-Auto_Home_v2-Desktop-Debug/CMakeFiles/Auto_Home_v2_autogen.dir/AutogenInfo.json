@@ -83,7 +83,16 @@
 		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/usr/share/cmake/Modules/CMakeParseArguments.cmake"
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/Dysk_przeno\u015bny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2",
 	"DEP_FILE" : "",
@@ -95,12 +104,18 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/Dysk_przeno\u015bny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/serial.h",
+			"MU",
+			"EWIEGA46WW/moc_serial.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Dysk_przeno\u015bny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/Auto_Home_v2_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Dysk_przeno\u015bny/Programowanie/repositories_test/Auto_Home_project/build-Auto_Home_v2-Desktop-Debug/Auto_Home_v2_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_SERIALPORT_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -115,6 +130,7 @@
 		"/usr/include/qt/QtGui",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtSerialPort",
 		"/usr/include/c++/12.2.1",
 		"/usr/include/c++/12.2.1/x86_64-pc-linux-gnu",
 		"/usr/include/c++/12.2.1/backward",

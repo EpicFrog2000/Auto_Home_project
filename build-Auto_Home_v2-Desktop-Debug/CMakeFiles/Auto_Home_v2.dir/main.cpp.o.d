@@ -256,6 +256,12 @@ CMakeFiles/Auto_Home_v2.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/QSlider /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
+ /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QEventLoop \
+ /usr/include/qt/QtCore/qeventloop.h \
+ /usr/include/qt/QtSerialPort/QSerialPort \
+ /usr/include/qt/QtSerialPort/qserialport.h \
+ /usr/include/qt/QtSerialPort/qserialportglobal.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \

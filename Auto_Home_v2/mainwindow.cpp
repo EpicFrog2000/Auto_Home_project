@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include "serial.h"
+
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent)
 {
     // Set window title
@@ -78,14 +79,10 @@ QWidget *MainWindow::createNewOknoLocation(QString nazwa)
     // Set the layout for the location widget
     line->setLayout(hbox);
 
-
-    int intValue = 30;
-
     // When "get" button is pressed, update the slider value from hardware
-    connect(get, &QPushButton::clicked, [=]() mutable {
-    int intValue = readserial(); // Convert the received line to an integer
-    Pb1->setValue(intValue);
-    //std::cerr << readserial();
+    connect(get, &QPushButton::clicked, this, [=]() mutable {
+        int intValue = readSerialData();
+        Pb1->setValue(intValue);
     });
 
     // When slider value changes, update labels and send the value to hardware

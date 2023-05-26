@@ -256,6 +256,12 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/QSlider /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
+ /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QEventLoop \
+ /usr/include/qt/QtCore/qeventloop.h \
+ /usr/include/qt/QtSerialPort/QSerialPort \
+ /usr/include/qt/QtSerialPort/qserialport.h \
+ /usr/include/qt/QtSerialPort/qserialportglobal.h \
  /usr/include/c++/12.2.1/fstream /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/ios /usr/include/c++/12.2.1/bits/basic_ios.h \
  /usr/include/c++/12.2.1/bits/locale_facets.h \
@@ -271,4 +277,21 @@ CMakeFiles/Auto_Home_v2.dir/mainwindow.cpp.o: \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/12.2.1/bits/fstream.tcc \
- /usr/include/c++/12.2.1/iostream
+ /usr/include/c++/12.2.1/iostream \
+ /Dysk_przenośny/Programowanie/repositories_test/Auto_Home_project/Auto_Home_v2/serial.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/bits/stat.h \
+ /usr/include/bits/struct_stat.h /usr/include/termios.h \
+ /usr/include/bits/termios.h /usr/include/bits/termios-struct.h \
+ /usr/include/bits/termios-c_cc.h /usr/include/bits/termios-c_iflag.h \
+ /usr/include/bits/termios-c_oflag.h /usr/include/bits/termios-baud.h \
+ /usr/include/bits/termios-c_cflag.h /usr/include/bits/termios-c_lflag.h \
+ /usr/include/bits/termios-tcflow.h /usr/include/bits/termios-misc.h \
+ /usr/include/sys/ttydefaults.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/c++/12.2.1/cstring \
+ /usr/include/c++/12.2.1/sstream /usr/include/c++/12.2.1/bits/sstream.tcc \
+ /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h

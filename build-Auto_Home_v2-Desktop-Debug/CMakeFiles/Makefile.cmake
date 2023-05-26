@@ -63,6 +63,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake"
   "/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake"
   "/usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake"
+  "/usr/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake"
+  "/usr/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake"
   "/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
   "/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
   "/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
